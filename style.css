@@ -1,0 +1,67 @@
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  
+}
+
+.logo h1 {
+  font-size: 2rem;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 800;
+  
+}
+
+img{
+  width: 45px;
+  height: 42px;
+  padding: 20px;
+
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.menu li a { 
+  padding: 10px 5px;
+  transition: 0.3s ease-in-out;
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
+  font-family: "Public Sans", sans-serif;
+}
+
+.menu li a:hover{
+  background-color: var(--background-btn);
+  color: var(--item-color);
+}
+
+.menu li a.btn{
+  background-color: var(--background-btn);
+  border-radius: 1rem;
+  color: var(--item-color);
+  margin-left: 2rem;
+  padding: 10px 20px;
+
+}
+
+
+
